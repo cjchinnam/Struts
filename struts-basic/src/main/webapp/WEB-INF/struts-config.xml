@@ -7,12 +7,12 @@
 
 	<form-beans>
 		<form-bean name="helloWorldForm" 
-			type="com.common.form.HelloWorldForm"/>
+			type="com.chaitanya.form.HelloWorldForm"/>
 	</form-beans>
 
 	<action-mappings>
 		<action path="/helloWorld"
-			type="com.common.action.HelloWorldAction"
+			type="com.chaitanya.action.HelloWorldAction"
 			name="helloWorldForm">
 			<forward name="success" path="/HelloWorld.jsp"/>
 			
